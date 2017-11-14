@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.homeye.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/udacity_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/udacity" />
+
+    <TextView
+        android:id="@+id/udacity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_picture"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Udacity" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_name"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="www.udacity.com" />
+
+    <TextView
+        android:id="@+id/address_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="2465 Latham St" />
+
+    <TextView
+        android:id="@+id/address_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mountain View, CA 94043" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="650-555-5555" />
+
+</RelativeLayout>
