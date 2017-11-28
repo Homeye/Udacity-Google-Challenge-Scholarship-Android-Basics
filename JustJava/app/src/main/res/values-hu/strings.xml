@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="toppings">Feltétek</string>
+    <string name="name">Név</string>
+    <string name="topping_whipped_cream">Tejszínhab</string>
+    <string name="topping_chocolate">Csokoládé</string>
+    <string name="quantity">Mennyiség</string>
+    <string name="order">Rendelés</string>
+    <string name="subject">Just Java rendelés <xliff:g example="Amy" id="name">%s</xliff:g> részére</string>
+    <string name="order_summary_name">Név: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="add_whipped_cream">Tejszínhab hozzáadva? <xliff:g example="true" id="trueFalse">%b</xliff:g></string>
+    <string name="add_chocolate">Csokoládé hozzáadva? <xliff:g example="true" id="trueFalse">%b</xliff:g></string>
+    <string name="order_summary_quantity">Mennyiség: <xliff:g example="4" id="quantity">%d</xliff:g></string>
+    <string name="total">Összesen: $<xliff:g example="20" id="price">%d</xliff:g></string>
+    <string name="thank_you">Köszönjük!</string>
+</resources>
